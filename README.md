@@ -1,5 +1,13 @@
 # Simple KWin script to toggle a window being shown on all activities
 
+# Installation
+
+1. Clone this repository.
+2. Run `kpackagetool5 -i .` in the root directory of the repository.
+3. Go to `System Settings > Window Management > KWin Scripts`
+4. Enable "Toggle pinning window to all activities"
+5. Enjoy!
+
 # Features
 - Literally just 2 shortcut keys
   - "Toggle window on all activities" - Meta+Ctrl+Tab
