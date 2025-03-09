@@ -1,7 +1,7 @@
 // client.activities being empty means shown on all activities
 
 function windowActivityPin() {
-    let client = workspace.activeClient;
+    let client = workspace.activeWindow;
     if (!client) return;
     if (client.activities.length == 0) {
         // Window is already pinned to all activities; pin it to only here
@@ -13,7 +13,7 @@ function windowActivityPin() {
 }
 
 function windowActivityUnpin() {
-    let client = workspace.activeClient;
+    let client = workspace.activeWindow;
     if (!client) return;
     if (client.activities.length == 0) {
         // client.activities is empty; and logically can be considered as all of the activities.

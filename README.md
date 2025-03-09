@@ -3,7 +3,7 @@
 # Installation
 
 1. Clone this repository.
-2. Run `kpackagetool5 -i .` in the root directory of the repository.
+2. Run `kpackagetool6 -t KWin/Script -i .` in the root directory of the repository.
 3. Go to `System Settings > Window Management > KWin Scripts`
 4. Enable "Toggle pinning window to all activities"
 5. Enjoy!

@@ -1,20 +1,18 @@
 {
+    "KPackageStructure": "KWin/Script",
     "KPlugin": {
         "Authors": [
             {
-                "Email": "sqaaakoi@sqaaakoi.xyz",
+                "Email": "sqaaakoi-git@sqaaakoi.xyz",
                 "Name": "Sqaaakoi"
             }
         ],
+        "Name": "Toggle pinning window to all activities",
         "Description": "Adds a shortcut to toggle the current window being shown on all activities",
         "Icon": "activities",
         "Id": "activitypin",
         "License": "MIT",
-        "Name": "Toggle pinning window to all activities",
-        "ServiceTypes": [
-            "KWin/Script"
-        ],
-        "Version": "1.1"
+        "Version": "2.0"
     },
     "X-KDE-PluginKeyword": "activitypin",
     "X-Plasma-API": "javascript",
